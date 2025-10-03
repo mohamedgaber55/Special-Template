@@ -161,7 +161,7 @@ function randomize(){
             let num = Math.floor(Math.random() * imgArray.length)
 
             // set style for landing 
-            landingPage.style.backgroundImage = `url(/imgs/${imgArray[num]})`;
+            landingPage.style.backgroundImage = `url(./imgs/${imgArray[num]})`;
         },2500)
     }
 }
